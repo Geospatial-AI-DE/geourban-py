@@ -20,6 +20,24 @@ Direct access to simulated spatially enabled traffic grids of urban regions. Thi
 ## Why is it important?
 The geospatial urban API solves a common challenge for urban digital twins – obtaining insights into mobility behavior of citizens using simulated traffic scenarios. Traffic planners use powerful tools in shaping urban mobility sustainable. But without having access to citizen movement profiles there is always a need for simulating, analyzing, testing and mitigating traffic scenarios.
 
+## Scope and Usage
+This repository provides a Python client library for interacting with the Geospatial Urban API, which is offered as a hosted service via RapidAPI.
+
+The module is designed as a lightweight and idiomatic interface for developers who want to integrate geospatial urban data into their applications. It abstracts common request patterns and simplifies access to the underlying API endpoints.
+
+This repository is distributed as an open-source reference implementation. The actual geospatial processing and data services are delivered through the hosted API, which operates as a separate service with its own availability, performance, and security characteristics.
+
+This client library does not operate independently and requires access to the Geospatial Urban API. It does not provide standalone geospatial processing capabilities.
+
+Users integrating this client into production systems are responsible for ensuring that their usage complies with applicable operational, security, and regulatory requirements.
+
+## License
+This project is licensed under the Apache V 2.0 License.
+
+The code in this repository is provided as an open-source client implementation and may be used, modified, and distributed in accordance with the terms of the license.
+
+Use of the Geospatial Urban API is subject to the terms, pricing, and conditions defined on RapidAPI and the service provider.
+
 ## Next steps
 Please, check out the [RapidAPI Account Creation and Management Guide](https://docs.rapidapi.com/docs/account-creation-and-settings).
 
