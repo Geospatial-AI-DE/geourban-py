@@ -32,7 +32,7 @@ This client library does not operate independently and requires access to the Ge
 Users integrating this client into production systems are responsible for ensuring that their usage complies with applicable operational, security, and regulatory requirements.
 
 ## License
-This project is licensed under the Apache V 2.0 License.
+This project is licensed under the `Apache-2.0` license.
 
 The code in this repository is provided as an open-source client implementation and may be used, modified, and distributed in accordance with the terms of the license.
 
